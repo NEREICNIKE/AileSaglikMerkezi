@@ -1,5 +1,6 @@
 namespace Entities.Entity
 {
+    using Core.Entity;
     using System;
     using System.Collections.Generic;
     using System.ComponentModel.DataAnnotations;
@@ -7,7 +8,7 @@ namespace Entities.Entity
     using System.Data.Entity.Spatial;
 
     [Table("Doktor")]
-    public partial class Doktor
+    public partial class Doktor : IEntity
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Doktor()

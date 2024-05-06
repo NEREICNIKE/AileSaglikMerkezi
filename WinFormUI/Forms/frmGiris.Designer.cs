@@ -89,13 +89,14 @@
             this.pnlGiris.Name = "pnlGiris";
             this.pnlGiris.Size = new System.Drawing.Size(715, 560);
             this.pnlGiris.TabIndex = 1;
+            this.pnlGiris.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlGiris_Paint);
             // 
             // lblUyariMesaj
             // 
             this.lblUyariMesaj.BackColor = System.Drawing.Color.Transparent;
             this.lblUyariMesaj.Location = new System.Drawing.Point(309, 136);
             this.lblUyariMesaj.Name = "lblUyariMesaj";
-            this.lblUyariMesaj.Size = new System.Drawing.Size(0, 0);
+            this.lblUyariMesaj.Size = new System.Drawing.Size(3, 2);
             this.lblUyariMesaj.TabIndex = 7;
             this.lblUyariMesaj.Text = null;
             // 
@@ -156,7 +157,7 @@
             this.lblSifre.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblSifre.Location = new System.Drawing.Point(139, 264);
             this.lblSifre.Name = "lblSifre";
-            this.lblSifre.Size = new System.Drawing.Size(27, 17);
+            this.lblSifre.Size = new System.Drawing.Size(30, 17);
             this.lblSifre.TabIndex = 3;
             this.lblSifre.Text = "Şifre";
             // 
@@ -166,7 +167,7 @@
             this.lblKullanici.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblKullanici.Location = new System.Drawing.Point(139, 190);
             this.lblKullanici.Name = "lblKullanici";
-            this.lblKullanici.Size = new System.Drawing.Size(69, 17);
+            this.lblKullanici.Size = new System.Drawing.Size(70, 17);
             this.lblKullanici.TabIndex = 2;
             this.lblKullanici.Text = "Kullanıcı Adı";
             // 

@@ -29,7 +29,7 @@ namespace Business.Concrete
         {
             //Business codes
 
-            //hasat kayıt sadece 08-17 saatleri arasında yapılabilir
+            //hasta kayıt sadece 08-17 saatleri arasında yapılabilir
             if (DateTime.Now.Hour < 8 || DateTime.Now.Hour > 17)
             {
                 return new ErrorResult(Messages.MaintenanceTime);

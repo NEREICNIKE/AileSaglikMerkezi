@@ -64,5 +64,9 @@ namespace WinFormUI
             this.Hide();
         }
 
+        private void pnlGiris_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

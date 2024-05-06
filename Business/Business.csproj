@@ -92,9 +92,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IDoktorService.cs" />
     <Compile Include="Abstract\IHastaService.cs" />
     <Compile Include="Abstract\IIlacService.cs" />
     <Compile Include="Abstract\IPersonelService.cs" />
+    <Compile Include="Concrete\DoktorManager.cs" />
     <Compile Include="Concrete\HastaManager.cs" />
     <Compile Include="Concrete\IlacManager.cs" />
     <Compile Include="Concrete\PersonelManager.cs" />

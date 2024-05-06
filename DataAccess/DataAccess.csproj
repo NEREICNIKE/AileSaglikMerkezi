@@ -53,9 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstract\IDoktorDal.cs" />
     <Compile Include="Abstract\IHastaDal.cs" />
     <Compile Include="Abstract\IIlacDal.cs" />
     <Compile Include="Abstract\IPersonelDal.cs" />
+    <Compile Include="Concrete\EntityFramework\EfDoktorDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfHastaDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfIlacDal.cs" />
     <Compile Include="Concrete\EntityFramework\EfPersonelDal.cs" />
